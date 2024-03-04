@@ -23043,6 +23043,17 @@
 			(thermal_bridge_angle 45)
 			(uuid "d2029e16-3d7b-4e38-906a-2c1db83694c5")
 		)
+		(model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/MF-MSMF050-2.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Vault:RES-0402"
 		(layer "F.Cu")
@@ -44932,13 +44943,13 @@
 		)
 		(model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/pj-102ah.stp"
 			(offset
-				(xyz -7.65005 0.04989 -7)
+				(xyz -7.65005 -0.2 6.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -180 0)
+				(xyz 90 -180 0)
 			)
 		)
 	)
@@ -58286,6 +58297,17 @@
 				(pts
 					(xy 119.51112 117.94863) (xy 114.46112 117.94863) (xy 114.46112 102.39863) (xy 119.51112 102.39863)
 				)
+			)
+		)
+		(model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/ESP32-S3-MINI-1-N8.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
 			)
 		)
 	)
