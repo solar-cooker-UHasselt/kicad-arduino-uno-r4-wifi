@@ -14,6 +14,9 @@
 
 ## TODO
 
+- DL1, DL2, DL3 and DL4 are having issues in the PCB
+- lots a vias connected to unknown net
+
 ### Components that Eurocircuits cannot supply
 
 - LED SMD 0603 RED 625nm, water clear, 42 to 88 mcd, 120 degrees, 1.6x0.8x0.6mm (x96)
