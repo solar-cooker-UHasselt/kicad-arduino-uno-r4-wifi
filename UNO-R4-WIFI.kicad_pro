@@ -427,7 +427,8 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "footprints"
+      "footprints",
+      "external_footprints"
     ],
     "pinned_symbol_libs": []
   },
@@ -474,7 +475,7 @@
       "svg": "",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "drawing_sheet.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -1529,7 +1530,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "empty.kicad_wks",
+    "page_layout_descr_file": "drawing_sheet.kicad_wks",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -1547,7 +1548,7 @@
     ],
     [
       "bef876b8-c7b2-438d-bea6-414755fbc4a8",
-      "U_LEDMATRIX"
+      "LED-MATRIX"
     ]
   ],
   "text_variables": {
