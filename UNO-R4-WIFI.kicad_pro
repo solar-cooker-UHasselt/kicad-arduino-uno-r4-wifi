@@ -756,7 +756,7 @@
           "group_by": false,
           "label": "DESCRIPTION",
           "name": "DESCRIPTION",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
