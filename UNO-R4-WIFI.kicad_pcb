@@ -41,6 +41,74 @@
 		(58 "User.9" user "Mechanical 9")
 	)
 	(setup
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+				(color "White")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(color "Black")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "core")
+				(color "FR4 natural")
+				(thickness 0.48)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "In1.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 2"
+				(type "prepreg")
+				(color "FR4 natural")
+				(thickness 0.48)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "In2.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 3"
+				(type "core")
+				(color "FR4 natural")
+				(thickness 0.48)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(color "Black")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+				(color "White")
+			)
+			(copper_finish "HAL lead-free")
+			(dielectric_constraints no)
+		)
 		(pad_to_mask_clearance 0.05)
 		(allow_soldermask_bridges_in_footprints no)
 		(aux_axis_origin 114.21111 131.67359)
@@ -14453,7 +14521,7 @@
 		(descr "SOT-23W http://www.allegromicro.com/~/media/Files/Datasheets/A112x-Datasheet.ashx?la=en&hash=7BC461E058CC246E0BAB62433B2F1ECA104CA9D3")
 		(tags "SOT-23W")
 		(property "Reference" "Q3"
-			(at 0 -2.5 270)
+			(at 0 -2.5 -90)
 			(layer "F.SilkS")
 			(uuid "0f7c017b-67f0-4d5e-bffc-4d42ac931c29")
 			(effects
@@ -14464,7 +14532,7 @@
 			)
 		)
 		(property "Value" "2N7002KT1G"
-			(at 0 2.5 270)
+			(at 0 2.5 -90)
 			(layer "F.Fab")
 			(uuid "21c299e3-a484-4bd6-b37a-d101bd46a34a")
 			(effects
@@ -15097,7 +15165,7 @@
 			(uuid "c2d7aff6-6b58-4745-a56b-3bfde77a489b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "8347a623-5358-4d60-85dd-cd54a0bd4476")
 			(effects
@@ -61168,7 +61236,7 @@
 		(descr "Through hole straight pin header, 2x03, 2.54mm pitch, double rows")
 		(tags "Through hole pin header THT 2x03 2.54mm double row")
 		(property "Reference" "J3"
-			(at 1.27 -2.33 360)
+			(at 1.27 -2.33 0)
 			(layer "F.SilkS")
 			(uuid "c95b814b-a448-4f6b-984e-d69aad9748e3")
 			(effects
@@ -61179,7 +61247,7 @@
 			)
 		)
 		(property "Value" "PH2-06-UA"
-			(at 1.27 7.41 360)
+			(at 1.27 7.41 0)
 			(layer "F.Fab")
 			(uuid "c92cad2b-8188-41e8-b570-717165a751ef")
 			(effects
@@ -75143,7 +75211,7 @@
 		(descr "JST SH series connector, SM04B-SRSS-TB (http://www.jst-mfg.com/product/pdf/eng/eSH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST SH horizontal")
 		(property "Reference" "J6"
-			(at 0 -3.98 270)
+			(at 0 -3.98 -90)
 			(layer "F.SilkS")
 			(uuid "ac71e546-2936-4646-8c82-3351d6508510")
 			(effects
@@ -75154,7 +75222,7 @@
 			)
 		)
 		(property "Value" "SM04B-SRSS-TB(LF)(SN)"
-			(at 0 3.98 270)
+			(at 0 3.98 -90)
 			(layer "F.Fab")
 			(uuid "1d2d3688-4d13-4311-b94a-a3c6901ab4bb")
 			(effects
@@ -76273,7 +76341,7 @@
 			(uuid "de7b58fe-2675-447b-b64b-73e2e1e80d23")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "76f719d2-8b02-4fa8-ac5a-009a91e53a86")
 			(effects
@@ -97107,14 +97175,6 @@
 		(layer "B.Cu")
 		(net 2)
 		(uuid "c5ca0c52-07f1-46f5-baeb-94252f2cd1b2")
-	)
-	(segment
-		(start 151.35343 108.36341)
-		(end 151.35343 108.3634)
-		(width 0.1)
-		(layer "B.Cu")
-		(net 2)
-		(uuid "d56c4f6e-a6c9-4bc2-a3d6-696c7ea48556")
 	)
 	(segment
 		(start 154.35778 105.82692)
