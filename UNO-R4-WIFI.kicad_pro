@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 1.8,
+          "width": 1.2
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -58,14 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "silk_edge_clearance|114211100|119583590|e011b054-5aa5-4dfc-9ec7-41e70d13a2ee|20c1175d-1ad2-43ee-a622-d04823ff218a",
-        "silk_edge_clearance|114211100|128383590|e011b054-5aa5-4dfc-9ec7-41e70d13a2ee|42e2fac1-1969-4fc7-9d4c-e93a5d545e6f",
-        "silk_edge_clearance|114211100|89159400|e011b054-5aa5-4dfc-9ec7-41e70d13a2ee|564245ec-3bfe-4e59-8515-2f21deea8183",
-        "silk_edge_clearance|114211100|98455800|e011b054-5aa5-4dfc-9ec7-41e70d13a2ee|0018d3b3-14e4-4b5a-9d2c-4825cbf6d48a",
-        "silk_over_copper|126219030|128383590|80df3852-cbe9-43cf-be0d-484ea9d47e27|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|126967273|127413999|d03f1021-395c-4ebe-bd4e-5da8c277d8bc|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -1517,10 +1510,10 @@
         }
       ],
       "filter_string": "",
-      "group_symbols": true,
+      "group_symbols": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Footprint"
     },
     "connection_grid_size": 50.0,
     "drawing": {
