@@ -1,9 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "UNO-R4-WIFI-altium-import")(type "KiCad")(uri "${KIPRJMOD}/UNO-R4-WIFI-altium-import.kicad_sym")(options "")(descr ""))
-  (lib (name "SSQ-108-01-G-S")(type "KiCad")(uri "${KIPRJMOD}/external/symbols/SSQ-108-01-G-S.kicad_sym")(options "")(descr ""))
-  (lib (name "SSQ-110-01-G-S")(type "KiCad")(uri "${KIPRJMOD}/external/symbols/SSQ-110-01-G-S.kicad_sym")(options "")(descr ""))
-  (lib (name "SSQ-115-01-G-S")(type "KiCad")(uri "${KIPRJMOD}/external/symbols/SSQ-115-01-G-S.kicad_sym")(options "")(descr ""))
-  (lib (name "TSW-103-07-G-S")(type "KiCad")(uri "${KIPRJMOD}/external/symbols/TSW-103-07-G-S.kicad_sym")(options "")(descr ""))
   (lib (name "external_library")(type "KiCad")(uri "${KIPRJMOD}/external/symbols/external_library.kicad_sym")(options "")(descr ""))
 )
