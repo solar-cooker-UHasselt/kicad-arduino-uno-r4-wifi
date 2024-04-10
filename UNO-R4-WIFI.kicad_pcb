@@ -24307,7 +24307,7 @@
 			(at 0 -3.85 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "b6ca1844-bcb5-40bb-8332-c56d30917480")
+			(uuid "a23fc6e1-2e6b-4fb8-8de6-d8e6a3c97f37")
 			(effects
 				(font
 					(size 1 1)
@@ -24318,7 +24318,7 @@
 		(property "Value" "MountingHole"
 			(at 0 3.85 0)
 			(layer "F.Fab")
-			(uuid "1cb3986a-24ff-4b93-9540-73d65d665a49")
+			(uuid "d841b040-223a-4a2d-8d92-0a04a76a5e71")
 			(effects
 				(font
 					(size 1 1)
@@ -24331,7 +24331,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "371f1eba-9f76-45f4-a121-5c5500f8aa64")
+			(uuid "1bdfd09d-1a02-42bd-b215-3aad668538e0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24343,7 +24343,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c07bb13f-2952-4df1-aaee-f953ce8329d5")
+			(uuid "54a543c5-2453-4b04-96da-8a9140340eb8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24355,7 +24355,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "73425394-9d66-4590-a2c8-29ddca5780db")
+			(uuid "f1e5e442-c81e-45cc-a6c7-bebbb956d456")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24427,10 +24427,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "MountingHole*")
 		(path "/1b2deefe-5ce5-4c9f-9503-d7330367b91b")
-		(sheetname "Root")
-		(sheetfile "UNO-R4-WIFI.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -24441,7 +24438,7 @@
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "73d03e19-9e5f-42d0-8312-3307582c5b05")
+			(uuid "6213440b-b212-4025-bc3e-24735bd5ab82")
 		)
 		(fp_circle
 			(center 0 0)
@@ -24452,12 +24449,12 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "05ec71b3-d43e-44ec-9776-310d8ac3184d")
+			(uuid "b2daba0b-8325-42d5-b846-c3baeef0c320")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "6e69af3d-3598-410d-a5f4-8b8a01604abf")
+			(uuid "a3d74a27-0c7c-44b9-8ec1-97464a5480fe")
 			(effects
 				(font
 					(size 1 1)
@@ -24470,7 +24467,7 @@
 			(size 3.2 3.2)
 			(drill 3.2)
 			(layers "*.Cu" "*.Mask")
-			(uuid "252ab77d-992b-436f-b57c-1359a12e4b42")
+			(uuid "38580a2d-2bc2-4cda-8210-a42b8156daf2")
 		)
 	)
 	(footprint "LED_SMD:LED_0402_1005Metric"
@@ -34919,7 +34916,7 @@
 			(at 0 -3.85 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "f87b2aa2-7011-45c4-8236-1d9188642782")
+			(uuid "c9c8997b-f07e-4ca3-9cec-844d4f2a6b05")
 			(effects
 				(font
 					(size 1 1)
@@ -34930,7 +34927,7 @@
 		(property "Value" "MountingHole"
 			(at 0 3.85 0)
 			(layer "F.Fab")
-			(uuid "0b9c71ea-7878-475d-a08b-009e0cedc56b")
+			(uuid "b587d4cc-2825-4874-a215-f63e300636c9")
 			(effects
 				(font
 					(size 1 1)
@@ -34943,7 +34940,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3b2acbd5-9b54-403d-8a27-6505413f3c7e")
+			(uuid "85cfb9a7-f261-48ba-aa8d-9b721ed807da")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34955,7 +34952,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3ce63a43-642a-4819-bb29-63793d341545")
+			(uuid "97050b2d-d8a9-4c22-b667-3d83f5a9c373")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34967,7 +34964,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ac75efa7-ea09-4e3a-9de8-a010e87aee08")
+			(uuid "88f3013d-2ef2-470b-9900-7ea8bfff5c48")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35039,11 +35036,8 @@
 				)
 			)
 		)
-		(property ki_fp_filters "MountingHole*")
 		(path "/3d06b46a-008b-4209-9c1a-2e7dab74b2a8")
-		(sheetname "Root")
-		(sheetfile "UNO-R4-WIFI.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 2.85 0)
@@ -35053,7 +35047,7 @@
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "981ef2c7-cc0b-45d9-9970-14aecace7957")
+			(uuid "dcea0618-91da-424f-a3a0-0ddd1850e421")
 		)
 		(fp_circle
 			(center 0 0)
@@ -35064,12 +35058,12 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "42e4ad60-0f0b-4674-9d58-3830bda24f55")
+			(uuid "159b08c6-b21b-45a6-8a62-63a10e3151e6")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "1179c18f-8ceb-4d2e-a8bf-306d3b7475b7")
+			(uuid "9c4a5ebf-54b2-4a23-83c4-3a10d8d94dd3")
 			(effects
 				(font
 					(size 1 1)
@@ -35082,7 +35076,7 @@
 			(size 3.2 3.2)
 			(drill 3.2)
 			(layers "*.Cu" "*.Mask")
-			(uuid "ab7909a0-bebe-4278-89f1-431777f7ba4f")
+			(uuid "3a77463d-0fc1-49df-9e7c-87fc63294332")
 		)
 	)
 	(footprint "external_footprints:TP-0.8MM"
@@ -38760,7 +38754,7 @@
 	(footprint "external_footprints:EJ508A"
 		(layer "F.Cu")
 		(uuid "933a8a84-3281-4885-9385-2d23c6e5c8c7")
-		(at 123.55111 123.98359 -90)
+		(at 122.84361 123.64359 -90)
 		(property "Reference" "J8"
 			(at -0.055 -5.789 90)
 			(layer "F.SilkS")
@@ -46843,7 +46837,7 @@
 			(at 0 -3.85 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "d7b71947-cbc9-4469-bd93-812a1712021f")
+			(uuid "9aab2bd5-a49a-4c8d-978a-aefaaa1bdd61")
 			(effects
 				(font
 					(size 1 1)
@@ -46854,7 +46848,7 @@
 		(property "Value" "MountingHole"
 			(at 0 3.85 0)
 			(layer "F.Fab")
-			(uuid "02b6ada6-b6d0-42cd-aa06-453ec2632bbe")
+			(uuid "a36b2f7b-5a54-45b3-9c5d-f49bcdb18a65")
 			(effects
 				(font
 					(size 1 1)
@@ -46867,7 +46861,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0756a273-0069-457f-be01-34dec7bf45e1")
+			(uuid "15088349-1778-4704-87fd-dc85844ac855")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46879,7 +46873,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3255288c-1655-49d6-a752-2a13de60b2ce")
+			(uuid "88acf56e-1e61-4230-8afe-13b2177ea9b5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46891,7 +46885,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "611aa9eb-5d4e-413d-9539-51aa14eb1a78")
+			(uuid "2ddc161a-cc63-4af4-a390-476c965220db")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46963,11 +46957,8 @@
 				)
 			)
 		)
-		(property ki_fp_filters "MountingHole*")
 		(path "/a3e9af1c-f9d5-44e5-8d38-d93d1c755133")
-		(sheetname "Root")
-		(sheetfile "UNO-R4-WIFI.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(attr exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 2.85 0)
@@ -46977,7 +46968,7 @@
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "18e72c26-8dcc-4a77-a5b9-62b07e206aca")
+			(uuid "62a6521c-5527-4b94-9081-2aea1f53a706")
 		)
 		(fp_circle
 			(center 0 0)
@@ -46988,12 +46979,12 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "ad4213ca-dc63-4270-b5c4-1004159afb86")
+			(uuid "c593dab7-2e5e-46dd-a251-d77243c9b954")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "9d542947-203d-41aa-b7dc-dafe7942f280")
+			(uuid "eafd1d1d-939a-47c4-b1c3-cfb1563029ab")
 			(effects
 				(font
 					(size 1 1)
@@ -47006,7 +46997,7 @@
 			(size 3.2 3.2)
 			(drill 3.2)
 			(layers "*.Cu" "*.Mask")
-			(uuid "59b3f76b-9b6e-46ed-a6c3-b1b71e330ebd")
+			(uuid "daa40e16-de8d-4d16-973f-5987f6a61f92")
 		)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
@@ -59469,6 +59460,7 @@
 		(property "Reference" "R7"
 			(at 0 -1.17 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "1564cb6a-7605-4a4c-8bc1-00b664099303")
 			(effects
 				(font
@@ -64540,7 +64532,7 @@
 			(at 0 -3.85 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "736e7e53-4ce5-4cb6-890e-d4085dfa01c0")
+			(uuid "471d6d1a-7cf6-4733-b3cc-a981d12e9f4a")
 			(effects
 				(font
 					(size 1 1)
@@ -64551,7 +64543,7 @@
 		(property "Value" "MountingHole"
 			(at 0 3.85 0)
 			(layer "F.Fab")
-			(uuid "ca956909-7c5a-4e1e-b978-42ed6244c410")
+			(uuid "3a2349be-dc34-4e1b-942c-e470eb131cc4")
 			(effects
 				(font
 					(size 1 1)
@@ -64564,7 +64556,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "618dea87-6eda-4e9c-ba8d-b2460821b104")
+			(uuid "3f9d3bbb-66c7-4ccf-95f5-9f568544323f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64576,7 +64568,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ff3c4a06-28b5-4ffc-bd1c-cbd48ef25004")
+			(uuid "cd182497-b04c-4f1f-a1ac-893d7a331202")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64588,7 +64580,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "98f6ddd8-3534-4bdd-8b5f-d5000687e1f2")
+			(uuid "03b54225-559e-4e6e-b48e-d1f36d3f4a0e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64660,11 +64652,8 @@
 				)
 			)
 		)
-		(property ki_fp_filters "MountingHole*")
 		(path "/4ea82a9d-e055-40a2-a68a-72c3e363f8ef")
-		(sheetname "Root")
-		(sheetfile "UNO-R4-WIFI.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(attr exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 2.85 0)
@@ -64674,7 +64663,7 @@
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "f1cb501b-fe1a-41e6-88f0-ca412b73755f")
+			(uuid "c9d598e6-4bb5-4545-bece-6d4c4047af35")
 		)
 		(fp_circle
 			(center 0 0)
@@ -64685,12 +64674,12 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "906b30b3-4815-488c-8e0c-92b6b645fe11")
+			(uuid "9421e29b-0b08-44fc-8dea-e2d243ee4fc0")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "e2942a63-d9e8-457a-8dff-8ee30faab9fe")
+			(uuid "9fd6be6d-c6b3-4e97-a94e-a55805204242")
 			(effects
 				(font
 					(size 1 1)
@@ -64703,7 +64692,7 @@
 			(size 3.2 3.2)
 			(drill 3.2)
 			(layers "*.Cu" "*.Mask")
-			(uuid "43f0d84c-80fa-4c21-bd7d-7349724dc4e7")
+			(uuid "2bc2a514-160f-42b3-8e1e-8b8a4718db91")
 		)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
@@ -85714,76 +85703,12 @@
 		(uuid "945c879a-3744-410b-b9e2-923ac2920006")
 	)
 	(segment
-		(start 131.5061 125.0026)
-		(end 133.62297 127.11948)
-		(width 0.8)
-		(layer "F.Cu")
-		(net 17)
-		(uuid "01b8a9f9-31ba-4e7a-a5cd-55db7c29df1f")
-	)
-	(segment
-		(start 137.78907 127.11948)
-		(end 139.6111 128.9415)
-		(width 0.8)
-		(layer "F.Cu")
-		(net 17)
-		(uuid "26786257-a9fa-4e44-9efb-85b16a39027e")
-	)
-	(segment
 		(start 159.81201 129.89344)
 		(end 159.81201 129.25269)
 		(width 0.8)
 		(layer "F.Cu")
 		(net 17)
-		(uuid "3fcce48e-b231-45a1-8cf5-24ec9b1013aa")
-	)
-	(segment
-		(start 126.1011 124.40917)
-		(end 126.1011 123.3676)
-		(width 0.8)
-		(layer "F.Cu")
-		(net 17)
-		(uuid "50066ab1-c741-45f7-ba4a-20dd2876bc85")
-	)
-	(segment
-		(start 139.6111 130.0477)
-		(end 139.6111 128.9415)
-		(width 0.8)
-		(layer "F.Cu")
-		(net 17)
-		(uuid "54c4f59b-c83e-4ed1-b1f7-7e1f94c45072")
-	)
-	(segment
-		(start 133.62297 127.11948)
-		(end 137.78907 127.11948)
-		(width 0.8)
-		(layer "F.Cu")
-		(net 17)
-		(uuid "666c3321-838f-4982-a2f4-fa612a9f536f")
-	)
-	(segment
-		(start 158.73183 130.97361)
-		(end 159.81201 129.89344)
-		(width 0.8)
-		(layer "F.Cu")
-		(net 17)
-		(uuid "74e5726f-bbe4-4511-b8bc-5ee53cefd19e")
-	)
-	(segment
-		(start 126.69453 125.0026)
-		(end 129.6061 125.0026)
-		(width 0.8)
-		(layer "F.Cu")
-		(net 17)
-		(uuid "83653620-d546-419f-b25c-c37be8832c4c")
-	)
-	(segment
-		(start 159.81201 129.25269)
-		(end 159.9311 129.1336)
-		(width 0.8)
-		(layer "F.Cu")
-		(net 17)
-		(uuid "a0d97782-d611-4010-a85c-8fddfa1898e6")
+		(uuid "0b6b631d-a781-4890-b2b3-6ded53d93055")
 	)
 	(segment
 		(start 140.53701 130.97361)
@@ -85791,31 +85716,23 @@
 		(width 0.8)
 		(layer "F.Cu")
 		(net 17)
-		(uuid "ac1b3c89-d6d9-4d22-8ee0-c6b77a9c792c")
+		(uuid "165707b0-c64f-4680-8f2f-4c189aa31295")
 	)
 	(segment
-		(start 129.6061 125.0026)
-		(end 130.9061 125.0026)
+		(start 159.81201 129.25269)
+		(end 159.9311 129.1336)
 		(width 0.8)
 		(layer "F.Cu")
 		(net 17)
-		(uuid "ac7e42a4-a408-4225-b325-c32a47db0520")
+		(uuid "4f2ddf8d-dba3-4ec2-9d4f-3727b261e2fc")
 	)
 	(segment
-		(start 130.9061 125.0026)
-		(end 131.5061 125.0026)
+		(start 139.6111 128.9415)
+		(end 139.6111 130.0477)
 		(width 0.8)
 		(layer "F.Cu")
 		(net 17)
-		(uuid "b5ca9d1d-a0c3-4f47-8fe3-b815f6dfddb3")
-	)
-	(segment
-		(start 126.1011 124.40917)
-		(end 126.69453 125.0026)
-		(width 0.8)
-		(layer "F.Cu")
-		(net 17)
-		(uuid "c06b10d2-5de4-417b-b4f2-d294242b3c9c")
+		(uuid "542637e0-9fcc-4a0f-b7fd-ee86c965ae49")
 	)
 	(segment
 		(start 139.6111 130.0477)
@@ -85823,15 +85740,55 @@
 		(width 0.8)
 		(layer "F.Cu")
 		(net 17)
-		(uuid "e4ab4aa4-f64d-4c66-9c54-65086bd6f967")
+		(uuid "567ddc14-40ef-496d-9e92-775c4ff204df")
 	)
 	(segment
-		(start 126.1011 124.15262)
-		(end 126.9511 125.00261)
+		(start 125.54861 123.64359)
+		(end 126.90762 125.0026)
 		(width 0.8)
 		(layer "F.Cu")
 		(net 17)
-		(uuid "e7d92017-33ea-49e9-a8f1-b0aad7df0808")
+		(uuid "5d1bc170-4178-4fbb-a949-de13404d5ef5")
+	)
+	(segment
+		(start 131.5061 125.0026)
+		(end 133.62297 127.11948)
+		(width 0.8)
+		(layer "F.Cu")
+		(net 17)
+		(uuid "7cbb4a5b-4e2e-464e-b44e-5a08053bf0bb")
+	)
+	(segment
+		(start 126.90762 125.0026)
+		(end 131.5061 125.0026)
+		(width 0.8)
+		(layer "F.Cu")
+		(net 17)
+		(uuid "b5b779f0-5204-45b0-a5f8-0a8709212a63")
+	)
+	(segment
+		(start 133.62297 127.11948)
+		(end 137.78907 127.11948)
+		(width 0.8)
+		(layer "F.Cu")
+		(net 17)
+		(uuid "b82d89a7-0f92-4a20-a7b6-3accef03e447")
+	)
+	(segment
+		(start 158.73183 130.97361)
+		(end 159.81201 129.89344)
+		(width 0.8)
+		(layer "F.Cu")
+		(net 17)
+		(uuid "b9ac5609-9bf6-4ec0-ba9b-d36871af9e2d")
+	)
+	(segment
+		(start 137.78907 127.11948)
+		(end 139.6111 128.9415)
+		(width 0.8)
+		(layer "F.Cu")
+		(net 17)
+		(uuid "e5f798eb-0f6c-44c9-bb35-f6a046208279")
 	)
 	(segment
 		(start 141.50066 112.71359)
