@@ -1,4 +1,4 @@
-(footprint "CON18_1X12_P0_HIR"
+(footprint "CX90B-16P"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -116,46 +116,6 @@
 		(fill none)
 		(layer "F.SilkS")
 		(uuid "6e5f055e-b494-45d1-95d2-4031e035e725")
-	)
-	(fp_line
-		(start -4.620001 -1.802994)
-		(end -4.620001 -3.199994)
-		(stroke
-			(width 0.6096)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "d4c8384a-906d-494f-88e3-6042fc0ca0b4")
-	)
-	(fp_line
-		(start -4.319999 1.600507)
-		(end -4.319999 0.508307)
-		(stroke
-			(width 0.6096)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "fc0a9408-c17d-4510-8a3c-54d3c2cb12f6")
-	)
-	(fp_line
-		(start 4.320001 1.600507)
-		(end 4.320001 0.508307)
-		(stroke
-			(width 0.6096)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "cb7ca36a-6bff-4894-a0df-d958b185e162")
-	)
-	(fp_line
-		(start 4.620001 -1.802994)
-		(end 4.620001 -3.199994)
-		(stroke
-			(width 0.6096)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "e13bd51b-584d-48b5-ab54-f0740932dfd1")
 	)
 	(fp_line
 		(start -5.432801 -4.012794)
