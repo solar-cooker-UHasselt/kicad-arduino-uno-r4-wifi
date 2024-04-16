@@ -59,6 +59,7 @@
         }
       ],
       "drc_exclusions": [
+        "clearance|121229160|81839330|bc260ca6-c4a3-4ea1-be6b-db0e2dc92f36|7f02a70a-2048-4b92-b677-2113c7dfef8e",
         "courtyards_overlap|125199512|128293589|808f994b-8242-44e5-abfe-858c4693031e|933a8a84-3281-4885-9385-2d23c6e5c8c7",
         "courtyards_overlap|130712702|127343591|808f994b-8242-44e5-abfe-858c4693031e|ff7dda82-f682-41a9-8ffa-d1e06637521d",
         "courtyards_overlap|131767807|78813591|c620b170-2e66-4940-bb2d-0e922ab598db|e7005489-8ff2-4f63-8e32-df43a0cf3885",
@@ -87,8 +88,8 @@
         "lib_footprint_mismatch|180251100|124053600|a7718ca5-7347-4c67-9567-1043ed44b93a|00000000-0000-0000-0000-000000000000",
         "silk_edge_clearance|114211100|119243590|e011b054-5aa5-4dfc-9ec7-41e70d13a2ee|71566385-1b84-4c5a-9242-294d75d485d6",
         "silk_edge_clearance|114211100|128043590|e011b054-5aa5-4dfc-9ec7-41e70d13a2ee|3b44a917-367e-41bc-a2d2-706873b6692d",
-        "silk_edge_clearance|114211100|89159400|e011b054-5aa5-4dfc-9ec7-41e70d13a2ee|66a882a1-87a3-43e6-8cc0-c889b591b026",
-        "silk_edge_clearance|114211100|98455800|e011b054-5aa5-4dfc-9ec7-41e70d13a2ee|1e503d50-73b7-45c6-801b-71712f0c9947",
+        "silk_edge_clearance|114211100|89159400|e011b054-5aa5-4dfc-9ec7-41e70d13a2ee|5332f4d4-bc20-4482-a694-9c7f09584c46",
+        "silk_edge_clearance|114211100|98455800|e011b054-5aa5-4dfc-9ec7-41e70d13a2ee|72f84df0-7cd0-4f9b-93b0-b13b46a04273",
         "silk_edge_clearance|182770930|110374120|e56e6f0c-76a9-46c2-a650-cdfba1e00ede|a8e0cd41-1b16-47b9-9e9f-7fe45cf270da",
         "silk_over_copper|126899510|91302600|c4b26970-380f-4269-801d-06fdf318525c|00000000-0000-0000-0000-000000000000",
         "silk_over_copper|126899515|94102610|c6be8c75-f55c-4d11-9fe4-d2692b403a4a|00000000-0000-0000-0000-000000000000",
@@ -526,7 +527,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "UNO-R4-WIFI.step",
       "svg": "",
       "vrml": ""
     },
@@ -546,7 +547,7 @@
     },
     "bom_presets": [],
     "bom_settings": {
-      "exclude_dnp": false,
+      "exclude_dnp": true,
       "fields_ordered": [
         {
           "group_by": false,
